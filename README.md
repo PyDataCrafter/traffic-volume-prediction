@@ -38,7 +38,7 @@ traffic_model
 The model was trained using a suitable loss function. The final training loss is:
 
 ```python
-final_training_loss  # Tensor, expected to be < 20
+final_training_loss: 0.0484
 ```
 
 ---
@@ -47,17 +47,16 @@ final_training_loss  # Tensor, expected to be < 20
 Predictions were generated on the test set and evaluated using Mean Squared Error (MSE):
 
 ```python
-test_mse  # Float tensor
+test_mse: 0.1662
 ```
 
 ---
 
 ## 🧪 Technologies Used
 
-- Python 3.x
+- Python 3.12
 - PyTorch
 - Pandas & NumPy
-- Matplotlib & Seaborn
 
 ---
 
@@ -65,11 +64,12 @@ test_mse  # Float tensor
 
 ```bash
 .
-├── data/                  # Scaled training and test CSV files
-├── notebook.ipynb         # Main notebook with model training & evaluation
-├── traffic.png            # Header image
-├── README.md              # Project overview
-└── models/                # (Optional) Saved PyTorch model
+├── data/               # Scaled training and test CSV files
+├── LICENSE
+├── notebook.ipynb      # Main notebook with model training & evaluation
+├── README.md           # Project overview
+├── requirements.txt    # Project requirements
+└── traffic.png         # Header image
 ```
 
 ---
@@ -78,7 +78,7 @@ test_mse  # Float tensor
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/traffic-volume-prediction.git
+   git clone https://github.com/PyDataCrafter/traffic-volume-prediction.git
    cd traffic-volume-prediction
    ```
 
