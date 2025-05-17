@@ -96,9 +96,9 @@ test_mse: 0.1662
 
 ## 👨‍💻 Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
+**Nicolás De Paoli Bornia**  
+📧 nicolasdepaolibornia@gmail.com
+🔗 [LinkedIn](www.linkedin.com/in/nicolás-de-paoli-bornia-a8a0201a7) | [Portfolio](https://github.com/PyDataCrafter)
 
 ---
 
